@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#fafafa; }
+    header { background: #111; color: #fff; padding: 3rem; text-align: center; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; }
+    h2 { margin-top: 2rem; text-align:center; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .project-card { background:#fff; border: 1px solid #ddd; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .project-card img { width:100%; border-radius:10px; }
+    footer { background: #222; color:#fff; padding: 1rem; text-align: center; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Art Portfolio</h1>
+    <p>Digital Art • Illustration • Creative Works</p>
+  </header>
+
+  <section id="about">
+    <h2>About the Artist</h2>
+    <p>Write a bio here — your style, inspirations, medium, and what makes your art unique.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Art Gallery</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300" alt="Artwork" style="width:100%; border-radius:8px;" />
+        <h3>Artwork Title</h3>
+        <p>Description of the artwork, medium, and year.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300" alt="Artwork" style="width:100%; border-radius:8px;" />
+        <h3>Artwork Title</h3>
+        <p>Description of the artwork, medium, and year.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300" alt="Artwork" style="width:100%; border-radius:8px;" />
+        <h3>Artwork Title</h3>
+        <p>Description of the artwork, medium, and year.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+</body>
+</html>
